@@ -136,13 +136,80 @@ button {
 
 .body3 {
     display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-height: 230px;
+    background-color: #E5E7EB;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.b3b {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-wrap: wrap;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.quote {
+    font-size: 36px;
+    color:  #1F2937;
+}
+.cite {
+    display: flex;
+    flex: 1;
+    margin-left: auto;
 }
 
 .body4 {
     display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-height: 200px;
+    justify-content: center;
+}
+.b4b {
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 50px;
+    background-color: #3882F6;
+    justify-content: center;
+    border-radius: 8px;
+}
+.b4bl {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    color: white;
+}
+.b4blh {
+    font-weight: bold;
+}
+.b4br {
+    display: flex;
+    justify-content: center;
+    color: white;
+    border-color: white;
+}
+.signu {
+    color: white;
+    border-color: white;
+    border-radius: 8px;
+    padding-left: 28px;
+    padding-right: 28px;
 }
 
 .footer {
     display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    min-height: 27px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
 }
 
